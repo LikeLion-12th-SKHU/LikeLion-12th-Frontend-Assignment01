@@ -11,6 +11,9 @@
     font-family: 'GmarketSansMedium';
 }
 
+
+/* css 조건 4번 만족 */
+
 .playContainer {
     width: 100vw;
     height: 100vh;
@@ -20,8 +23,8 @@
 
 .playBox {
     width: 40vw;
-    height: 90vh;
-    margin-top: 2.5vh;
+    height: 93vh;
+    margin-top: 1.5vh;
     background-color: white;
     border-radius: 10px;
     position: absolute;

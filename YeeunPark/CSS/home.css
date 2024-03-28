@@ -11,11 +11,17 @@
     font-family: 'GmarketSansMedium';
 }
 
+
+/* css 조건 4번 만족 */
+
 .homeContainer {
     width: 100vw;
     height: 100vh;
-    background-color: #206e35;
+    background-image: url(../img/back.jpg);
 }
+
+
+/* css 조건 3번 만족 */
 
 .homeBox {
     width: 80vw;
@@ -32,8 +38,8 @@
 .homeImg {
     /* border: 1px black solid; */
     width: 30vw;
-    height: 75vh;
-    margin-top: 5vh;
+    height: 50vh;
+    margin-top: 12vh;
     margin-left: 5vw;
 }
 
