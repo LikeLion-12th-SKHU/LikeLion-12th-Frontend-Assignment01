@@ -78,3 +78,7 @@ a {
     color: #206e35;
     font-size: 12px;
 }
+
+a:hover {
+    color: darkorange;
+}

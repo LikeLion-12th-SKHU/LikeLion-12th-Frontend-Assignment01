@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'GmarketSansMedium';
+}
+
+.introContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #206e35;
+}
+
+.introBox {
+    width: 80vw;
+    height: 90vh;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.introTop {
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.introImg {
+    width: 25vw;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.introTxtbox {
+    /* border: 1px black solid; */
+    width: 30vw;
+    height: auto;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    font-size: 20px;
+}
+
+.introTxtbox1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2vh;
+    color: #206e35;
+}
+
+hr {
+    width: 70vw;
+    margin-left: 5vw;
+    height: 1.5px;
+    background-color: #206e35;
+    border: none;
+    margin-top: 10vh;
+}
+
+.introContact {
+    width: 20vw;
+    margin: 0 auto;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.introContact1 {
+    margin-bottom: 2vh;
+}
+
+.introContact2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.5vh;
+    padding-left: 2vw;
+}
+
+.introContactPhone {
+    color: #206e35;
+    margin-bottom: 0.5vh;
+}
+
+.introBack {
+    text-decoration: none;
+    color: #206e35;
+    font-size: 12px;
+}
+
+.introBack:hover {
+    color: darkorange;
+}
+
+td {
+    padding-left: 30px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    border-bottom: 0.5px solid #ccc;
+}
+
+th {
+    border-bottom: 0.5px solid #ccc;
+}
