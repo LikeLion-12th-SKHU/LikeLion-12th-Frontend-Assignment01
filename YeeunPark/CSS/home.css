@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'GmarketSansMedium';
+}
+
+.homeContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #206e35;
+}
+
+.homeBox {
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.homeImg {
+    /* border: 1px black solid; */
+    width: 30vw;
+    height: 75vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.homeTxtbox {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 38vw;
+    color: white;
+}
+
+hr {
+    height: 1.5px;
+    background-color: #206e35;
+    border: none;
+}
+
+.homeTxt1 {
+    font-size: 80px;
+    text-shadow: -3px 0px #206e35, 0px 3px #206e35, 3px 0px #206e35, 0px -3px #206e35;
+}
+
+.homeTxt2 {
+    display: flex;
+}
+
+.homeTxt2_1 {
+    font-size: 70px;
+    text-shadow: -3px 0px #206e35, 0px 3px #206e35, 3px 0px #206e35, 0px -3px #206e35;
+}
+
+.homeTxt2_2 {
+    font-size: 70px;
+    color: #206e35;
+    font-weight: bolder;
+}
+
+.homeTxt2_3 {
+    font-size: 70px;
+    text-shadow: -3px 0px #206e35, 0px 3px #206e35, 3px 0px #206e35, 0px -3px #206e35;
+}
+
+.homeTxt3box {
+    background-color: cornsilk;
+    color: #206e35;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 10px;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    padding-top: 10px;
+}
+
+.homeTxt3a {
+    width: 15vw;
+    margin-left: 2.5vw;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
