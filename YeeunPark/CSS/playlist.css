@@ -22,9 +22,9 @@
 }
 
 .playBox {
-    width: 40vw;
-    height: 93vh;
-    margin-top: 1.5vh;
+    width: 576px;
+    height: 725px;
+    margin-top: 12px;
     background-color: white;
     border-radius: 10px;
     position: absolute;
@@ -36,9 +36,9 @@
 
 .playTxt {
     font-size: 45px;
-    width: 25vw;
-    height: 10vh;
-    padding-top: 2vh;
+    width: 360px;
+    height: 78px;
+    padding-top: 16px;
     margin: 0 auto;
     color: #206e35;
 }
@@ -48,8 +48,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 table,

@@ -24,8 +24,8 @@
 /* css 조건 3번 만족 */
 
 .homeBox {
-    width: 80vw;
-    height: 80vh;
+    width: 1150px;
+    height: 650px;
     background-color: white;
     border-radius: 10px;
     position: absolute;
@@ -37,10 +37,10 @@
 
 .homeImg {
     /* border: 1px black solid; */
-    width: 30vw;
-    height: 50vh;
-    margin-top: 12vh;
-    margin-left: 5vw;
+    width: 430px;
+    height: 390px;
+    margin-top: 75px;
+    margin-left: 72px;
 }
 
 .homeTxtbox {
@@ -48,7 +48,7 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    margin-left: 38vw;
+    margin-left: 550px;
     color: white;
 }
 
@@ -86,17 +86,17 @@ hr {
 .homeTxt3box {
     background-color: cornsilk;
     color: #206e35;
-    width: 20vw;
-    height: 10vh;
+    width: 288px;
+    height: 78px;
     border-radius: 10px;
-    margin-left: 5vw;
-    margin-top: 3vh;
+    margin-left: 72px;
+    margin-top: 23px;
     padding-top: 10px;
 }
 
 .homeTxt3a {
-    width: 15vw;
-    margin-left: 2.5vw;
+    width: 216px;
+    margin-left: 36px;
     padding-top: 5px;
     display: flex;
     justify-content: space-between;

@@ -24,8 +24,8 @@
 /* css 조건 3번 만족 */
 
 .introBox {
-    width: 80vw;
-    height: 90vh;
+    width: 1150px;
+    height: 700px;
     background-color: white;
     border-radius: 10px;
     position: absolute;
@@ -37,62 +37,62 @@
 .introTop {
     display: flex;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 39px;
 }
 
 .introImg {
-    width: 25vw;
+    width: 360px;
     height: auto;
-    margin-top: 5vh;
-    margin-left: 5vw;
+    margin-top: 39px;
+    margin-left: 72px;
 }
 
 .introTxtbox {
     /* border: 1px black solid; */
-    width: 30vw;
+    width: 432px;
     height: auto;
-    margin-top: 15vh;
-    margin-left: 5vw;
+    margin-top: 117px;
+    margin-left: 72px;
     font-size: 20px;
 }
 
 .introTxtbox1 {
     text-align: center;
     font-size: 40px;
-    margin-bottom: 2vh;
+    margin-bottom: 15px;
     color: #206e35;
 }
 
 hr {
-    width: 70vw;
-    margin-left: 5vw;
+    width: 1008px;
+    margin-left: 72px;
     height: 1.5px;
     background-color: #206e35;
     border: none;
-    margin-top: 10vh;
+    margin-top: 78px;
 }
 
 .introContact {
-    width: 20vw;
+    width: 288px;
     margin: 0 auto;
-    margin-top: 2vh;
+    margin-top: 15px;
     text-align: center;
 }
 
 .introContact1 {
-    margin-bottom: 2vh;
+    margin-bottom: 15px;
 }
 
 .introContact2 {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 1.5vh;
-    padding-left: 2vw;
+    margin-bottom: 12px;
+    padding-left: 29px;
 }
 
 .introContactPhone {
     color: #206e35;
-    margin-bottom: 0.5vh;
+    margin-bottom: 4px;
 }
 
 .introBack {
