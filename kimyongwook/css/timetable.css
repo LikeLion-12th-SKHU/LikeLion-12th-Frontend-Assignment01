@@ -1,0 +1,62 @@
+@font-face { /* CSS 4번 조건 충족 */
+    font-family: 'TTHakgyoansimUndongjangL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimUndongjangL.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+th {
+    width: 180px;
+}
+
+.node {
+    background-color: rgb(205, 245, 190);
+}
+
+.work {
+    background-color: rgb(219, 233, 176);
+}
+
+.machine {
+    background-color: rgb(237, 195, 246);
+}
+
+.software {
+    background-color: rgb(241, 193, 205);
+}
+
+.graduate {
+    background-color: rgb(238, 239, 197);
+}
+
+.graduate-1 {
+    background-color: antiquewhite;
+}
+
+.hidden {
+    border: none;
+}
+
+h1 {
+    font-size: 50px;
+    color : white;
+}
+
+
+body {
+    font-family: 'TTHakgyoansimUndongjangL';
+    text-align: center;
+    background-image: url(../image/timetable.jpg);
+    background-size: cover;
+}
+
+table {
+    margin : 50px auto;
+    padding : 20px auto;
+}
