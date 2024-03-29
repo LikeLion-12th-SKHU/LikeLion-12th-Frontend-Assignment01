@@ -1,3 +1,4 @@
+/* css 4번조건 */
 @font-face {
     font-family: 'KCC-Hanbit';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
@@ -17,7 +18,7 @@ h3{
     font-size: 30px;
     color:white;
 }
-
+/* css 3번조건 */
 body {
     font-family: 'KCC-Hanbit';
     text-align: center;
