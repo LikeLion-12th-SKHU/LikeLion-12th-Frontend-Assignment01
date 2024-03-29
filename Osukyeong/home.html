@@ -7,7 +7,7 @@
     <!-- html 조건 3번 만족 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>INTRODUCE</title>
 </head>
 <body>
@@ -28,25 +28,19 @@
     <section>
         <article>
             <div class="right">
-                <h1>Send Me !</h1>
-                <input type="button" value="click me" onclick="alert('제출해주셔서 감사합니다.')" />
+                <h1>Send me an email !</h1>
+                <input type="button" value="submit" onclick="alert('제출해주셔서 감사합니다.')" />
 
                 <form action="get">
-                    <input type="text" name="myname" />
+                    날짜: <input type="date" name="date" />
                     <br>
-                    <input type="password" name="pwd" />
-                    <br>
-                    <hr />
-                    <input type="file" name="myfile">
+                    제목: <input type="title" name="mytitle" placeholder="제목을 입력해주세요" />
                     <br>
                     <hr />
-                    <input type="date" name="date" />
-                    <br>
-                    <hr />
-                    <textarea placeholder="할 말을 남겨주세요"></textarea>
+                    내용: <textarea placeholder="내용을 입력해주세요"></textarea>
                     <br />
                     <hr />
-                    <input type="file" name="myfile">
+                    파일: <input type="file" name="myfile">
                 </form>
 
                 <a href="https://www.instagram.com/oungskyoung/">

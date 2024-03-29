@@ -36,6 +36,8 @@ a {
 
 /* css 조건 3번 만족 */
 .rightIntroduce {
+    background-image: url('https://beauty.gobahub.com/wp-content/uploads/2021/11/IMG_6631-169x300.jpg');
+    background-size: cover;
     border: 1px solid rgb(235, 235, 235); 
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7); 
     height: 3300px;
@@ -99,32 +101,54 @@ a {
 }
 
 .right form {
-    width: 1000px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     padding: 100px auto;
     margin: 100px auto;
-    border: 1px solid gray;
+
+    border: 1px solid black
 }
 
 .right input[type="button"] {
     width: 300px;
-    height: 80px;
+    height: 100px;
     font-size: 30pt;
     border-radius: 10px;
     border: 1px solid gray;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); 
 }
 
-.right input[type="text"] {
-    width: 500px;
-    height: 50px;
+.right input[type="title"] {
+    width: 400px;
+    height: 40px;
     font-size: 10pt;
+    margin: 20px;
+}
+
+.right input[type="date"] {
+    width: 250px;
+    height: 30px;
+    font-size: 15pt;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.right textarea {
+    width: 400px;
+    height: 200px;
+    font-size: 15pt;
+    padding: 10px;
+    margin: 20px;
+}
+
+.right hr {
+    width: 90%;
 }
 
 .right h1 {
     text-align: center;
     padding-left: 300px;
     color: palevioletred;
+    font-size: 70pt;
 }
 
 .change {
@@ -189,8 +213,13 @@ hr {
 }
 
 .rightIntroduce h2 {
-    text-align: center;
-    padding-left: 500px;
+    text-align: right;
+    padding-right: 440px;
+}
+
+.rightIntroduce h2.in {
+    text-align: right;
+    padding-right: 500px;
 }
 
 h1 {
