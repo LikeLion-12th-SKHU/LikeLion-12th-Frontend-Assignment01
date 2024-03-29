@@ -1,0 +1,54 @@
+/* css 4번조건 */
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;}
+h1{
+    font-size: 50px;
+    color:blueviolet;
+}
+
+h2{
+    font-size: 40px;
+    color:white;
+}
+
+h3{
+    font-size: 30px;
+    color:white;
+}
+/* css 3번조건 */
+body {
+    font-family: 'KCC-Hanbit';
+    text-align: center;
+
+    background-color:aquamarine;
+}
+
+ul {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+dd {
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+ol {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+table {
+    margin: 50px auto;
+    padding: 20px auto;
+}

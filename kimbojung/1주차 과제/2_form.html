@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- #3 메타태그  -->
+    <meta name="description" content="비전공자의 프론트엔드 도전기"/>
+    <meta name="keywords" content="비전공자,코딩" />
+    <meta name="author" content="김보정"/>
+    <link rel="stylesheet" href="2_form.css"/>
+    <title>나에대해 알아보는 설문 페이지</title>
+</head>
+<body>
+
+<nav>           
+    <!-- #5 하이퍼링크 -->
+    <ul> 
+        <br><a href="2_home.html">홈</a></li>
+        <br><a href="2_introduce.html">자기소개</a></li>
+        <br><a href="2_form.html">설문페이지</a></li>
+    </ul>
+</nav>
+<!-- #4 시맨틱태그 -->
+<header>
+    <h2>설문해보자</h2>
+</header>
+<section>
+    <article>
+        <form action="get">
+            <h3>button</h3>
+            <input
+            type="button"
+            value="누르고 싶나요?"
+            onclick="alert('이걸 누르네!')"
+            />
+            <hr />
+            <h3>text</h3>
+            <input type="text" name="myname" />
+            
+            <h3>password</h3>
+            <input type="password" name="pwd" />
+
+            <h3>birthday</h3>
+            <input type="date" name="birthday" />
+            <hr />
+
+            
+            
+
+            <h3>자랑거리</h3>
+            <input type="file" name="myfile" />
+            <hr />
+            <h3>number</h3>
+            <input
+              type="number"
+              name="quantity"
+              min="0"
+              max="15"
+              step="3"
+              value="0"
+            />
+            <hr />
+
+            <h3>radio</h3>
+            <input type="radio" name="gender" value="male" checked /> 남자<br />
+            <input type="radio" name="gender" value="female" checked /> 여자<br />
+            <hr />
+
+            <h3>좋아하는 치킨</h3>
+            <input type="checkbox" name="chicken1" value="chicken1" checked />
+            뿌링클<br />
+            <input type="checkbox" name="chicken2" value="chicken2"  /> 맛초킹<br />
+            <input type="checkbox" name="chicken3" value="chicken3"  /> 허니콤보<br />
+            <hr />
+
+            <h3>what's your favorite color?</h3>
+            <input type="color" name="mycolor" />
+
+        
+
+            <!--#9  textarea사용 -->
+            <h3>textarea, submit</h3>
+            <textarea placeholder="여기에 작성해주세요"></textarea>
+            <br />
+            <br />
+            <input type="submit" />
+            <hr />
+            
+            <h2>select</h2>
+            <label for="pet-select">제일 이쁜 꽃</label>
+            <hr />
+            <select name="flowers" id="flower-select">
+                
+                <option value="">골라주세요</option>
+                <option value="dog">할미꽃</option>
+                <option value="cat">개나리</option>
+                <option value="hamster">진달래</option>
+                <option value="squirrel">벚꽃</option>
+                <option value="rabbit">나팔꽃</option>
+            </select>
+        </form>
+    </article>
+</section>
+</body>
+</html>
