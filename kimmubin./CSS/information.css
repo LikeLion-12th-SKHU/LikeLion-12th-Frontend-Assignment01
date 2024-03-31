@@ -34,6 +34,7 @@ table{
 }
 
 body{
+      /* css 3번 과제 조건 ( 최소 두 개의 html 파일에 각각 background-image와 color를 넣을 것 ) */
   background-image: url(../image/아기사자\ 사진3.png);
   background-size: cover;
   text-align: center;
