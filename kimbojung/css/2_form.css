@@ -8,6 +8,16 @@ h1{
     color:blueviolet;
 }
 
+
+#first_heading {
+    color:rosybrown;
+    text-align: center;
+}
+
+.beginner { 
+    color: blueviolet;
+}
+
 h2{
     font-size: 40px;
     color:white;
@@ -15,7 +25,7 @@ h2{
 
 h3{
     font-size: 30px;
-    color:white;
+    color:rgb(255, 127, 219);
 }
 
 body {
