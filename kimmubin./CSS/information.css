@@ -64,6 +64,7 @@ h2{
 textarea {
   margin-left: 100px;
   margin-top: 10px;
+  margin-bottom: 25px;
   height: 230px;
   width: 33%; 
   font-family: 'TTLaundryGothicB' ;
@@ -72,13 +73,10 @@ textarea {
 }
 
 footer {
-  position: absolute;
   background-color: #e18223;
   color: #000000;
   font-size: 20px;
   text-align: center;
   padding: 40px;
-  bottom: 0;
-  width: 100%;
-  margin: 0%;
+ 
 }

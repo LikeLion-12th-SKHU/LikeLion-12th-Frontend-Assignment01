@@ -66,12 +66,10 @@ ul{
 }
 
 footer {
-    position: absolute;
     background-color: #e18223;
     color: #000000;
     font-size: 20px;
     text-align: center;
     padding: 40px;
-    bottom: 0;
-    width: 100%;
+   
 }
