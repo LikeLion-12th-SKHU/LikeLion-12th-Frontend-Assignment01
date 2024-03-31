@@ -1,0 +1,77 @@
+@font-face {
+/* css 조건 4번 만족 */
+    font-family: 'TTLaundryGothicB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+header{
+    text-align: center;
+    background-color: #e18223;
+    font-size: 20px;
+    padding: 20px;
+}
+
+body{
+    height: auto;
+    text-align: center;
+    background-image: url(../image/아기사자\ 사진2.png);
+    background-size: cover;
+    font-family: 'TTLaundryGothicB';
+}
+
+nav a{
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #bd8a42;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px auto;
+}
+
+article{
+    margin-left: 30px;
+    text-align: left;
+}
+
+h2{
+    font-size: 40px;
+    text-align: left;
+}
+
+h3{
+    font-size: 30px;
+    text-align: left;
+}
+
+h4{   
+    font-size: 20px;
+    text-align: left;
+}
+
+ul{
+    display: inline-table;
+    margin-left: 20px;
+}
+
+footer {
+    position: absolute;
+    background-color: #e18223;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    bottom: 0;
+    width: 100%;
+}
