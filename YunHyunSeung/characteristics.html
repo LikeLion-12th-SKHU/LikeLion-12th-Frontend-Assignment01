@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- html 조건 3번 만족 -->
+    <meta name="윤현승 특징" content="특징 페이지, 좋아하는 가수, 좋아하는 음식, 댓글, 폼태그, 취미, 축구, 롤, html, css">
+    <title>characteristics</title>
+    <link rel="stylesheet" href="characteristics.css">
+    <style>
+        p{
+            font-size: larger;
+        }
+    </style>
+    <script>
+        function show(){
+            document.getElementById("fig").src = "사진/폴킴 이미지.jpg"
+        }
+        function hide(){
+            document.getElementById("fig").src="";
+        }
+    </script>
+</head>
+<body>
+    <!-- html 조건 1, 2, 5번 만족  -->
+    <nav>
+        <a href="home.html">home</a>
+        <a href="introduce.html">introduce</a>
+    </nav>
+    <header>
+        <h1>Characteristics</h1>
+    </header>
+    <hr>
+    <section>
+        <div class="container">
+            <div class="item">
+                <p>좋아하는 색깔: 파랑색</p>
+                <p>좋아하는 음식: 맥도날드 1955버거</p>
+                <p>취미: 롤, 축구, 노래듣기</p>
+                <p>mbti: isfj</p>
+            </div>
+    </section>
+
+        <br />
+
+    <section>
+        <!-- html 조건 7번 만족 -->
+            <div class="item">
+                <h3><span onmouseover="show()" onmouseout="hide()">좋아하는 가수</span></h3>
+                <div><img id="fig" src="사진/폴킴 이미지.jpg" alt="&#8593;커서를 가져다 대세요"></div>
+            </div>
+    </section>
+
+        <br />
+
+    <section>
+            <div class="item">
+                <h3>좋아하는 아이돌</h3>
+                <img src="https://img.hankyung.com/photo/202309/AKR20230901035200005_01_i_P4.jpg" alt="이미지 없음" style="width: 400px;">
+            </div>
+    </section>
+    <br />
+    <section>
+        <article>
+            <div class="item">
+                <!-- html 조건 9번 만족 -->
+                <form action="get">
+                    <h3>좋아하는 노래 하나씩 추천해주세요</h3>
+                    <textarea placeholder="입력"></textarea>
+                    <br />
+                    <input type="submit">
+                </form>
+            </div>
+        </article>
+        </div>
+    </section>
+</body>
+</html>
