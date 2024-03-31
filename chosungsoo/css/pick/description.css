@@ -1,0 +1,44 @@
+.travel_box {
+    border-radius: 30px;
+    border-bottom: 3px solid mediumaquamarine;
+    border-top: 3px solid mediumaquamarine;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+/*css 조건 3번 만족*/
+.travel_box_border2 {
+    border-bottom: 3px solid rgb(113, 215, 233);
+    border-top: 3px solid rgb(113, 215, 233);
+}
+
+.travel_box_border3 {
+    border-bottom: 3px solid rgb(149, 113, 233);
+    border-top: 3px solid rgb(149, 113, 233);
+}
+
+
+.travel_img {
+    width: 400px;
+    margin: 10px 20px;
+    border-radius: 30px;
+}
+
+.travel_title {
+    font-size: 60px;
+}
+
+.travel_description {
+    font-size: 20px;
+}
+
+.travel_text {
+    font-size: 20px;
+}
+
+.travel_result {
+    width: 40%;
+    height: 70px;
+}

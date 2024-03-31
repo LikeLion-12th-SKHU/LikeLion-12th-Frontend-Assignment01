@@ -1,0 +1,43 @@
+
+.profile_box {
+    justify-content: center;
+    border: 3px solid greenyellow;
+
+    border-radius: 50px;
+    margin: 0 20%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.profile_img {
+    width: 20%;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+section > div {
+    display: flex;
+    align-items: center;
+}
+
+.information {
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid orange;
+    border-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    margin: 10px 70px 10px;
+    font-size: 150%;
+}
+
+p {
+    margin: 20px;
+}

@@ -1,0 +1,43 @@
+.hobby_title {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: white;
+    border-radius: 50px;
+    margin: auto;
+    font-size: 20px;
+}
+
+/*css 조건 3번 만족*/
+.table_background_1 {
+    background-color: antiquewhite;
+}
+
+.table_background_2 {
+    background-color: rgb(237, 245, 125);
+}
+
+td {
+    text-align: center;
+}
+
+.introduce_img {
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.introduce_title{
+    width: 300px;
+}
+
+.hobby_title_section {
+    margin: 60px 10px auto;
+    display: flex;
+    justify-content: center;
+}
