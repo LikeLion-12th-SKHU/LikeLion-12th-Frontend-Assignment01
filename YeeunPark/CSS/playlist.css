@@ -1,15 +1,24 @@
 @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-display: auto;
     font-weight: normal;
     font-style: normal;
 }
 
-* {
+:root {
+    --main-color: #206e35;
+}
+
+
+/* * {
     margin: 0px;
     padding: 0px;
     font-family: 'GmarketSansMedium';
-}
+} */
+
+
+/* reset.css로 대체 */
 
 
 /* css 조건 4번 만족 */
@@ -17,7 +26,7 @@
 .playContainer {
     width: 100vw;
     height: 100vh;
-    background-color: #206e35;
+    background-color: var(--main-color);
     position: relative;
 }
 
@@ -34,16 +43,16 @@
     text-align: center;
 }
 
-.playTxt {
+.playTxt_title {
     font-size: 45px;
     width: 360px;
     height: 78px;
     padding-top: 16px;
     margin: 0 auto;
-    color: #206e35;
+    color: var(--main-color);
 }
 
-.playTable {
+.playTableWrap {
     width: auto;
     display: flex;
     justify-content: center;
@@ -52,14 +61,14 @@
     margin-bottom: 8px;
 }
 
-table,
-th,
-td {
+.playTable,
+.playTh,
+.playTd {
     border: 1px solid rgb(255, 255, 255);
     border-collapse: collapse;
 }
 
-table {
+.playTable {
     border-radius: 10px;
 }
 
@@ -67,21 +76,21 @@ table {
     width: 50px;
 }
 
-th {
+.playTh {
     background-color: rgb(241, 241, 241);
-    color: #206e35;
+    color: var(--main-color);
 }
 
 .color {
     background-color: rgb(241, 241, 241);
 }
 
-a {
+.play_a {
     text-decoration: none;
-    color: #206e35;
+    color: var(--main-color);
     font-size: 12px;
 }
 
-a:hover {
+.play_a:hover {
     color: darkorange;
 }

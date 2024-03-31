@@ -1,15 +1,24 @@
 @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-display: auto;
     font-weight: normal;
     font-style: normal;
 }
 
-* {
+:root {
+    --main-color: #206e35;
+}
+
+
+/* * {
     margin: 0px;
     padding: 0px;
     font-family: 'GmarketSansMedium';
-}
+} */
+
+
+/* reset.css로 대체 */
 
 
 /* css 조건 4번 만족 */
@@ -56,18 +65,18 @@
     font-size: 20px;
 }
 
-.introTxtbox1 {
+.introTxtbox_title {
     text-align: center;
     font-size: 40px;
     margin-bottom: 15px;
-    color: #206e35;
+    color: var(--main-color);
 }
 
-hr {
+.introHr {
     width: 1008px;
     margin-left: 72px;
     height: 1.5px;
-    background-color: #206e35;
+    background-color: var(--main-color);
     border: none;
     margin-top: 78px;
 }
@@ -79,25 +88,25 @@ hr {
     text-align: center;
 }
 
-.introContact1 {
+.introContact_title {
     margin-bottom: 15px;
 }
 
-.introContact2 {
+.introContact_icon {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 12px;
     padding-left: 29px;
 }
 
-.introContactPhone {
-    color: #206e35;
+.introContact_phone {
+    color: var(--main-color);
     margin-bottom: 4px;
 }
 
 .introBack {
     text-decoration: none;
-    color: #206e35;
+    color: var(--main-color);
     font-size: 12px;
 }
 
@@ -105,7 +114,7 @@ hr {
     color: darkorange;
 }
 
-td {
+.introTd {
     padding-left: 30px;
     padding-bottom: 2.5px;
     padding-top: 2.5px;
@@ -113,6 +122,6 @@ td {
     /* html 조건 6번 만족 */
 }
 
-th {
+.introTh {
     border-bottom: 0.5px solid #ccc;
 }
