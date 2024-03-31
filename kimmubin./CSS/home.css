@@ -1,5 +1,5 @@
 /* 
-    과제 2번 
+   css 과제 2번 
     모든 css 파일 넣어둠 
 */
 @font-face {
@@ -19,7 +19,7 @@ header{
 body{
     font-family: 'TTLaundryGothicB';
     text-align: center;
-    /* 3번 과제 조건 ( 최소 두 개의 html 파일에 각각 background-image와 color를 넣을 것 ) */
+    /* css 3번 과제 조건 ( 최소 두 개의 html 파일에 각각 background-image와 color를 넣을 것 ) */
     background-color: #e49546;
 }
 
