@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'SokchoBadaDotum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaDotum.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+h2{
+    border: 2px solid rgb(171, 212, 252);
+    background-color: white;
+    border-radius: 20px;
+}
+article p {
+    font-size: 20px;
+}
+nav {
+    font-family: 'SokchoBadaDotum';
+    width: 100%;
+}
+
+nav .list1 .li1 {
+    display : inline;
+    margin: 20px 70px;
+}
+
+nav, .list1, .li1, a {
+    color:antiquewhite;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.m img{
+    width : 80%;
+    border-radius: 100%;
+}
+
+#box{
+    list-style-type: none;
+}
+
+#box1{
+    font-size: 20px;
+}
+.A{
+    margin: 10px;
+    display: inline;
+    align-items: center;
+}
+
+.A img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+aside {
+    text-align: center;
+    float: left;
+    width: 40%; 
+}
+section {
+    text-align: center;
+    overflow: hidden;
+    padding: auto;
+    margin: 20px;
+}
+
+article{
+    margin: 0px auto;
+    width: 100%;
+}
+
+table{
+    margin: 20px auto;
+    width: 100%;
+}
+
+td, th {
+    border : 2px solid white;
+    width: 250px;
+    height: 50px;
+}
+
+.side{
+    background-color: white;
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center;*/
+}
+
+.class1{
+    display: flex;
+}
+
+.class2{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(171, 212, 252);
+}
+
+h1{
+    color: black;
+}
+
+body{
+    font-family: 'KCC-Hanbit'; /*css 조건 4번 만족*/
+    background-color: rgb(171, 212, 252);/*css 3번 만족*/
+}

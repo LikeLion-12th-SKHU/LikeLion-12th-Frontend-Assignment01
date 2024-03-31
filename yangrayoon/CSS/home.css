@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'SokchoBadaDotum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaDotum.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: nor=mal;
+}/*css 조건 4번 만족*/
+nav {
+    font-family: 'SokchoBadaDotum'; /*css 조건 4번 만족*/
+    width: 100%;
+}
+nav ul li{
+    display: inline;
+    margin: 20px 70px;
+}
+nav, ul, li, a {
+    color:antiquewhite;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+header{
+    font-size: 20px;
+    font-family: 'twaysky';/*css 조건 4번 만족*/
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+body{
+    margin: 10px;
+    font-family: 'SokchoBadaDotum';
+    text-align: center;
+    background-image: url(/1-Assignment---/yangrayoon/image/06530017.JPG); /*css 조건 3번 만족*/
+    background-size: cover;
+}/*css조건 3번 만족*/
+footer{
+    color: antiquewhite;
+    font-family: 'twaysky';
+    text-align:end;
+}
