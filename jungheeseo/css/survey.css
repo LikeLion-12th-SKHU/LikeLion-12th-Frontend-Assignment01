@@ -19,5 +19,5 @@ input {
 
 body {
     font-family: 'SOYOMapleBoldTTF';
-    background-color: cornsilk;
+    background-color: cornsilk; /*css조건3. background-color*/
 }
