@@ -1,3 +1,5 @@
+
+
 .hobby_title {
     font-size: 50px;
     text-align: center;
@@ -17,8 +19,13 @@ table {
     background-color: antiquewhite;
 }
 
-.table_background_2 {
-    background-color: rgb(237, 245, 125);
+
+
+
+/* 피드백 주셔서 background-image 사용 완료했습니다. 귀여운 캐릭터 배경을 추가했어요. */
+.table_background_2 {  
+    background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fupload3.inven.co.kr%2Fupload%2F2022%2F04%2F06%2Fbbs%2Fi16435366014.png&type=a340);
+    background-size: cover;
 }
 
 td {
@@ -40,4 +47,8 @@ td {
     margin: 60px 10px auto;
     display: flex;
     justify-content: center;
+}
+
+.introdue_red {
+    color:rgb(150, 70, 68);
 }
