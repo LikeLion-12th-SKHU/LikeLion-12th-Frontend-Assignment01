@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /* css 조건 4번 만족 */
+
+h3 {
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+
+mark {
+    font-size: 20px;
+    color: rgb(169, 102, 102);
+}
+
+
+body {
+    font-family: 'ImcreSoojin';
+    text-align: center;
+    background-image: url(https://blog.kakaocdn.net/dn/dllYca/btqDQSCEh3w/V9O3EnfrHkZuCepy0oCHn0/img.jpg);
+} /*  css 조건 3번 만족(background-image) */
