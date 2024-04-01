@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'SOYOMapleBoldTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/SOYOMapleBoldTTF.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;  /*css4. 웹 폰트*/
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+nav {
+    text-align: center;
+}
+
+a {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+div {
+    margin-left: 50px;
+}
+
+.hs {
+    border-radius: 50%;
+}
+
+p {
+    line-height: 150%;
+    font-size: 17px;
+}
+
+h4 {
+    margin-left: 40px;
+}
+body {
+    font-family: 'SOYOMapleBoldTTF';
+}
