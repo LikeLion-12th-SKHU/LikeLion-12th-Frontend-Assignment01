@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'SOYOMapleBoldTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/SOYOMapleBoldTTF.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal; /*css조건4. 웹 폰트*/
+}
+
+nav {
+    row-gap: 100px;
+    text-align: center;
+}
+
+.mbti {
+    margin-left: 600px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    line-height: 250%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    background-color: rgb(17, 0, 203);
+    height: 1px;
+}
+
+article {
+    text-align: center;
+}
+
+table {
+    margin: 50px auto;
+    /*padding: 20px auto;*/
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+}
+
+body {
+    font-family: 'SOYOMapleBoldTTF';
+    background-image: url(https://blogfiles.pstatic.net/20160403_157/wkao9489_1459683245545foK0K_JPEG/NaverBlog_20160403_203404_06.jpg);
+    background-size: cover; /*css조건3. background-image*/
+}
