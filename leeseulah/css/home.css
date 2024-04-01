@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'TAEBAEKfont';
+    background-image: url("../image/homepage.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(244, 219, 27);
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    background-color: rgb(228, 39, 200);
+    color: rgb(244, 219, 27);
+    padding: 10px 15px;
+}
+
+h3 {
+    color:rgb(89, 70, 86);
+    font-weight: 500;
+    padding-left: 3px;
+}
+
+input {
+    color: rgb(228, 39, 200);
+    padding:40px 30px;
+    text-align: center;
+}
