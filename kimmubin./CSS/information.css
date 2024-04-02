@@ -1,0 +1,94 @@
+@font-face {
+/* css 조건 4번 만족 */
+font-family: 'TTLaundryGothicB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+header{
+  text-align: center;
+  background-color: #e18223;
+  padding: 10px;
+  font-size: 20px;
+}
+
+nav a{
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  background-color: #bd8a42;
+  color: #fff;
+  text-align: center;
+  padding: 10px; /* 여백 */
+}
+
+table{
+  font-size: 20px;
+  background-color: #f4f4f4;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+body{
+  margin-top: 12%;
+      /* css 3번 과제 조건 ( 최소 두 개의 html 파일에 각각 background-image와 color를 넣을 것 ) */
+  background-image: url(../image/아기사자\ 사진3.png);
+  background-size: cover;
+  text-align: center;
+  font-family: 'TTLaundryGothicB';
+}
+
+article{
+  text-align: left;
+}
+
+thead{
+  text-align: center;
+}
+
+.title-container{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+}
+
+td{
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  height: 230px;
+  width: 33%; 
+  font-family: 'TTLaundryGothicB' ;
+  font-size: 20px; 
+  background-color: #f4f4f4;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #e18223;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+ 
+}

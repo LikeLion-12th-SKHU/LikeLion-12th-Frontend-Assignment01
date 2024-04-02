@@ -1,0 +1,107 @@
+@font-face {
+    /* css 조건 4번 만족 */
+font-family: 'TTLaundryGothicB';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+font-weight: 700;
+font-style: normal;
+}
+@font-face {
+    font-family: 'WAGURITTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+h2{
+    font-size: 30px;
+    font-family: 'JalnanGothic';
+
+}
+header img{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+body{
+    margin-top: 12%;
+    font-family: 'TTLaundryGothicB';
+    text-align: center;
+    background-image: url(/image/배경색맞춤.png);
+}
+
+.container {
+    display: flex;
+    align-items: center; /* 요소들을 수직 가운데 정렬 */
+    text-align: left;
+    justify-content: center;
+    margin-top: 40px;
+}
+.text-container {
+    margin-left: 50px; 
+    font-size: 25px;
+}
+.text3-container{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.text2-container {
+    display: flex;
+    align-items: center; /* 요소들을 수직 가운데 정렬 */
+    text-align: left;
+    margin-top: 40px;
+    justify-content: center;
+}
+.img-container{
+    justify-content: center;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+    background-color: #000000;
+    padding: 10px;
+}
+h4{
+    color: rgba(162, 162, 162, 0.615);
+    font-size: 20px;
+}
+h5{
+    color: rgba(168, 176, 184, 0.615);
+    font-size: 20px;
+    font-family: 'KBO-Dia-Gothic_bold';
+}
+
+a{
+    padding: 20px;
+    font-family: 'WAGURITTF';
+    text-decoration-line: none;
+    color: white;
+
+}
+nav {
+    text-align: right;
+    padding: 20px; /* 여백 */
+}
+footer{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    width: 100%;
+}
+
+
