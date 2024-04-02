@@ -9,7 +9,7 @@ font-family: 'TTLaundryGothicB';
 header{
   text-align: center;
   background-color: #e18223;
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
 }
 
@@ -34,6 +34,7 @@ table{
 }
 
 body{
+  margin-top: 12%;
       /* css 3번 과제 조건 ( 최소 두 개의 html 파일에 각각 background-image와 color를 넣을 것 ) */
   background-image: url(../image/아기사자\ 사진3.png);
   background-size: cover;
@@ -47,6 +48,13 @@ article{
 
 thead{
   text-align: center;
+}
+
+.title-container{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
 }
 
 td{
@@ -73,10 +81,14 @@ textarea {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #e18223;
   color: #000000;
   font-size: 20px;
   text-align: center;
-  padding: 40px;
+  padding: 20px;
  
 }
