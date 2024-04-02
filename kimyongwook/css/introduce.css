@@ -1,0 +1,28 @@
+    @font-face { /* CSS 4번 조건 충족 */
+        font-family: 'TTHakgyoansimUndongjangL';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimUndongjangL.woff2') format('woff2');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    .hidden {
+        border: none;       
+    }   
+
+    h1 {
+        font-size: 50px;
+        color : white;
+    }
+    
+    body {
+        font-family: 'TTHakgyoansimUndongjangL';
+        text-align: center;
+        background-image: url(../image/sky.jpg); /* CSS 3번 조건 충족 2/2 */
+        background-size: cover;
+    }
