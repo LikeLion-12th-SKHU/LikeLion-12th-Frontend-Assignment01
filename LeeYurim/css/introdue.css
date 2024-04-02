@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'ImcreSoojin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /* css 조건 4번 만족 */
+
+h1 {
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+
+h3{
+    font-size: 20px;
+    color: rgb(244, 244, 250);
+}
+
+h4{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+small{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: 'ImcreSoojin';
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+} /* css 조건 3번 만족 */
