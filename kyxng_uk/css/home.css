@@ -1,0 +1,81 @@
+/* 조건 4번 만족 */
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+/* css 조건 1번 만족 */
+/* css 조건 2번 만족 */
+
+header{
+    background-color: orange;
+    padding: 10px 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'intelone-mono-font-family-regular';
+    text-align: center;
+
+    background-color: white;
+    margin: 0;
+
+    /* css 조건 3번 만족 */
+}
+
+
+section{
+    font-family: 'intelone-mono-font-family-regular';
+}
+
+h3{
+    color: white;
+    display: inline; 
+}
+
+h5{
+    text-align: center;
+    font-size: 30px;
+}
+
+h4{
+    text-align: right;
+}
+
+em{
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+
+nav a{
+    text-decoration-line: none;
+    text-align: right;
+    color: white;
+}
+
+a{
+    text-decoration-line: none;
+    text-align: right;
+    color: orange;
+}
+
+footer{
+    background-color: orange;
+}
+
+aside{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+nav{
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1{
+    color: white;
+}
+
