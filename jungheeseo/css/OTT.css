@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SOYOMapleBoldTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/SOYOMapleBoldTTF.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal; /*css조건4. 웹 폰트*/
+}
+
+header {
+    margin-left: 80px;
+}
+
+div {
+    line-height: 150%;
+}
+
+h1 {
+    color: rgb(148, 9, 9); 
+}
+
+ul {
+    margin-left: 150px;
+}
+
+body {
+    font-family: 'SOYOMapleBoldTTF';
+    background-color: lavender; /*css조건3. background-color*/
+}
