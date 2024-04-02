@@ -1,0 +1,28 @@
+nav {
+    text-align: center;
+    justify-content: center;
+}
+
+.comment {
+    font-size: 300%;
+    margin: 80px auto;
+}
+
+nav > div {
+    margin: 30px;
+    font-size: 200%;
+}
+
+a {
+    width: fit-content;
+    margin: 30px auto;
+    border-radius: 30px;
+    text-decoration: none;
+    display: block;
+    font-size: 35px;
+}
+
+
+a:hover {
+    background-color: rgb(235, 226, 176);
+}
