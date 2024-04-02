@@ -15,14 +15,15 @@ header{
     background-color: #e18223;
     padding: 10px;
     font-size: 20px;
-  }
+}
 
 body{
+    font-size: 30px;
     margin-top: 10%;
     font-family: 'TTLaundryGothicB';
     text-align: center;
     /* css 3번 과제 조건 ( 최소 두 개의 html 파일에 각각 background-image와 color를 넣을 것 ) */
-    background-color: #e49546;
+    background-color: #ffffff;
 }
 
 nav {
@@ -53,12 +54,6 @@ section {
     background-color: #fff;
     background-size: cover;
 }
-
-div{
-    font-size: 30px;
-}
-
-
 
 h3{
     font-size: 30px;
