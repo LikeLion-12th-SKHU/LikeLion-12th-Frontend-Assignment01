@@ -86,7 +86,13 @@ a {
 
 .ls {
     float: right; width: 50%;
-    text-align: right;
+    text-align: left;
+}
+
+h5 {
+    text-align: center;
+    padding-left: 300px;
+    font-size: 10pt;
 }
 
 /* 인스타 이미지 */

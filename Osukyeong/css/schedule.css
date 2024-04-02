@@ -75,6 +75,12 @@ h5.phone {
     font-size: 10pt;
 }
 
+h5 {
+    text-align: center;
+    padding-left: 300px;
+    font-size: 10pt;
+}
+
 /* 인스타 이미지 */
 img[src="https://i.namu.wiki/i/PpCUHjc8PoAlAWoSip-m3KtgYMq7Ft1sI2BiCioMrclYCFdnjCEVKdPyXJ3yqXgHjgboqOp-8Q9z71WTisQy_A.svg"] {
     width: 50px;
