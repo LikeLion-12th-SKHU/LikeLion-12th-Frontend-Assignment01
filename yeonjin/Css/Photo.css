@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'WAGURITTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-size: 20xp;
+    color:rgb(226, 113, 128);
+
+}
+h4{
+    font-size: 20px;
+    color:rgb(192, 21, 126);
+}
+
+h2{font-size: 30px;
+    color: rgb(192, 21, 126);
+
+}
+
+body{
+    font-family: 'WAGURITTF';
+    text-align: center;
+    /* css 과제조건3번 */
+    background-color: rgb(255, 255, 255);
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMNEA0KDw4QDg0NCA0NDQ8NChsOEAoQFREWFhURFRMYHSggGBslGxMTITEhJSk3Li46FyAzODMsQzQ5LiwBCgoKDg0OFxAQGS4dFx0rKy0rLSs4LSsrLS0rKysrKysrLSstLS0tNysrLS0rKysrLy0rLS0tLS0tKysrLS03Lf/AABEIAOcA2gMBIgACEQEDEQH/xAAaAAEBAAMBAQAAAAAAAAAAAAAAAgEDBAUG/8QAMRABAAIBAwMCBAQFBQAAAAAAAAERAhJRkQMTITFBBCJhgTJxobEFFMHh8RVygpLw/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAIBEBAQEAAgMBAQEBAQAAAAAAABEBAlESEyEDQTFhIv/aAAwDAQACEQMRAD8A+8Ac33gAAAAAAAAAAAAAAAAAAAAAAAAAAZooRgZpv+E6MZT834Y9fr9BN2ZXOPZnHpVp7eNflU8+rz+t8NWVY+cZ9Jn2/MY4/rm/8cw3dT4ecYvxMfSfRqodM3N/xgZooGBmigYGaKBgZooGBmigYGaKBgZooGG/+T6lau3lX5eePVXwlYTrn1iPl+k7uz+d+o5c+fLN/wDOPKHZ19OeWu6n3qPxI6nTwr5fE/ndjec3MKnGmKGl0UuimWailxnMFFFQ7k7ncncoop8Nc7plVFFEUUuihaiil0UFRRS6KCoopdFBUUUuigqKKXRQVFFN2HRmfbxvK/5ad4VnzxzUU2Z9OcfWGKRaiil0ULUUUuigqqKXRTLFRRS6KCoopdFBUUUuigqKKXRQVFFLooKiil0UFRRS6KCoopdFBUU29Dp3Pn0j9U06fho8T/uXGeWzFihpxRljfiXHnhUzDvc3xEef+Ka3w3656KXRTLrUUUuigq6KVRSMVNFKooKmilUUFTRSqKCpopVFBU0UqigqaKVTs6PwkVeUze0exn1OXPM/1w0U6/iPhox+bGbj3ifWGiOnM+YiZ+xpnPNytdFKooWppt6GVeN/3RRRU366qKaserXr5V3o2arn46ty9SbmZXnnM/SEUm63xyJopVFI1U0Uqigq6KXRTLFRRS6KCoopdFBUUUuigqKKXRQVFFLooKmF92WKKWjPdk7ssUUVJjGXnz7ppdFJVRRS6KCoopdFBUUUuigqKKXRQVFFLooKqil0xPjyjNTRTXn1to+8tc9Sd1mtZx10UU0R1Zj6/nC8evvHBNN462UUzjnE+/8ARVIyiil0nPKI8z/kGKKacutPt4/Ux60+/n9FmteOt1FM4zE+Y/wqkZRRS6YyqPM+EKmijHqRPiJ/oulEUUqfHlpz63tHJi5dbKKcszM+syxSxrwddFOaM5j3n923HrbxwRN462UUrGYn0ZpGUUUumLjeOQqO5M7JmL9Z/Vu0RvHJojeOVm9M+zj255xTP0h1aI3jk0RvHJ96X28e3FOMsdufry7tEbxyaI3jlbvTXu49uKMJ3leMzH9pp1aI3jk0RvHJ96Tf247/AFpjKd5+5ON+fX7t2iN45NEbxyn3pPZx7ae2xp/9bfojeOTRG8cn09vHtpxivMT+q9c/ReiN45NEbxyTek9nHtozy+7TOEz5duiN45NEbxyuXprP145/XFolsw6mUePb9nTojeOTRG8cn3o39eOtHr6zyaW/RG8cmiN45T70nt49ubL6Q1zjMu3RG8cmiN45X70uftx7cPaIwmPeXdojeOTRG8cl3pffx7cuNx/bw2RnO/MN2iN45NEbxyn3pnf147/Wqbn3Y7bdojeOTRG8cn09nHtIajU9018bywDUaiaeWAajUTTywDUaiaeWAajUTTywDUaiaeWAajUTTywDUaiaeWAajUTTywDUaiaeWAajUTTywDUaiaeWAajUTTywDUaiaeWIEdyN45O5G8cu0ea4sR3I3jk7kbxyQuLEdyN45O5G8ckLixHcjeOTuRvHJC4sR3I3jk7kbxyQuLEdyN45O5G8ckLixHcjeOTuRvHJC4sR3I3jk7kbxyQuLEdyN45O5G8ckLixHcjeOTuRvHJC4sR3I3jk7kbxyQuLEdyN45O5G8ckLixHcjeOTuRvHJC4sR3I3jk7kbxyQuOMB2eUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGJmvXx5iPvM1BPj18eYjzvPiAZGJmrmfERFzM+IiN2aAGGQAAAAAAAAAAAAAAAAAABPci9GqNVXp1ea3pQNfX6WvHLpzMxGWNXjNZY7TE7w4f9Hw8zGfViZxiLjrele8ePX8X/aftkIubuLz/heGVzOWc3OExGWnKMJxiIionHaIjy1/6N06yjVnOrq453lOOVV7ecar0mYn1qGQh5azn/CcJjTq6mnVlNaonzlFZT5jzcK6n8MwymJmcvlwjCIjKIiMYy1Rj4j0Ah5a6vh+lHTww6WP4cOnjhj49oio9GwBAAAAAAAAAAAAAAAAAAHDoyiJ6MYxPUy6+Gc9aeljEYRGUXOPzX+HVF1cznM+IiHcCZxjXLlvKV//2Q==) ;
+    background-size: cover;
+}
+
+ul {
+    width: 100px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+table {
+    margin: 50px auto;
+    padding: 20px auto;
+}
+/* css 과제조건2번 */
