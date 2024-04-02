@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-display: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-color: #206e35;
+}
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'GmarketSansMedium';
+} */
+
+
+/* reset.css로 대체 */
+
+
+/* css 조건 4번 만족 */
+
+.homeContainer {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/back.jpg);
+}
+
+
+/* css 조건 3번 만족 */
+
+.homeBox {
+    width: 1150px;
+    height: 650px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.homeImg {
+    /* border: 1px black solid; */
+    width: 430px;
+    height: 390px;
+    margin-top: 75px;
+    margin-left: 72px;
+}
+
+.homeTxtbox {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 550px;
+    color: white;
+}
+
+.homeHr {
+    height: 1.5px;
+    background-color: var(--main-color);
+    border: none;
+}
+
+.homeTxt_hello {
+    font-size: 80px;
+    text-shadow: -3px 0px var(--main-color), 0px 3px var(--main-color), 3px 0px var(--main-color), 0px -3px var(--main-color);
+}
+
+.homeTxt2Wrap {
+    display: flex;
+}
+
+.homeTxt2_im {
+    font-size: 70px;
+    text-shadow: -3px 0px var(--main-color), 0px 3px var(--main-color), 3px 0px var(--main-color), 0px -3px var(--main-color);
+}
+
+.homeTxt2_yeeun {
+    font-size: 70px;
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
+.homeTxt2_smile {
+    font-size: 70px;
+    text-shadow: -3px 0px var(--main-color), 0px 3px var(--main-color), 3px 0px var(--main-color), 0px -3px var(--main-color);
+}
+
+.homeTxtGoto_wrap {
+    background-color: cornsilk;
+    color: var(--main-color);
+    width: 288px;
+    height: 78px;
+    border-radius: 10px;
+    margin-left: 72px;
+    margin-top: 23px;
+    padding-top: 10px;
+}
+
+.homeTxtGoto_a {
+    width: 216px;
+    margin-left: 36px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}

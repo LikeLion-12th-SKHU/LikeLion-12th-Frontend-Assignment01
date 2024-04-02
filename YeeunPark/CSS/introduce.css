@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-display: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --main-color: #206e35;
+}
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'GmarketSansMedium';
+} */
+
+
+/* reset.css로 대체 */
+
+
+/* css 조건 4번 만족 */
+
+.introContainer {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/back.jpg);
+}
+
+
+/* css 조건 3번 만족 */
+
+.introBox {
+    width: 1150px;
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.introTop {
+    display: flex;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.introImg {
+    width: 360px;
+    height: auto;
+    margin-top: 39px;
+    margin-left: 72px;
+}
+
+.introTxtbox {
+    /* border: 1px black solid; */
+    width: 432px;
+    height: auto;
+    margin-top: 117px;
+    margin-left: 72px;
+    font-size: 20px;
+}
+
+.introTxtbox_title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: var(--main-color);
+}
+
+.introHr {
+    width: 1008px;
+    margin-left: 72px;
+    height: 1.5px;
+    background-color: var(--main-color);
+    border: none;
+    margin-top: 78px;
+}
+
+.introContact {
+    width: 288px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.introContact_title {
+    margin-bottom: 15px;
+}
+
+.introContact_icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 12px;
+    padding-left: 29px;
+}
+
+.introContact_phone {
+    color: var(--main-color);
+    margin-bottom: 4px;
+}
+
+.introBack {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 12px;
+}
+
+.introBack:hover {
+    color: darkorange;
+}
+
+.introTd {
+    padding-left: 30px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    border-bottom: 0.5px solid #ccc;
+    /* html 조건 6번 만족 */
+}
+
+.introTh {
+    border-bottom: 0.5px solid #ccc;
+}
