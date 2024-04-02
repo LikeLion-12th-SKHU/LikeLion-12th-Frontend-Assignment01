@@ -19,5 +19,6 @@ input {
 
 body {
     font-family: 'SOYOMapleBoldTTF';
-    background-color: cornsilk; /*css조건3. background-color*/
+    background-image: url(https://blogfiles.pstatic.net/20160403_157/wkao9489_1459683245545foK0K_JPEG/NaverBlog_20160403_203404_06.jpg);
+    background-size: cover; /*css조건3. background-image*/
 }
