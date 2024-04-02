@@ -1,8 +1,3 @@
-/* css 조건 1번 만족 */
-/* css 조건 2번 만족 */
-/* css 조건 5번 만족 */
-
-/* css 조건 4번 만족 */
 @font-face {
     font-family: 'YClover-Bold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
@@ -35,74 +30,16 @@ a {
 }
 
 /* css 조건 3번 만족 */
-.right {
-    /* background-color: rgb(253, 253, 238); */
-    background-image: url('https://photo.s3.com.tw/look/Upload/BlogArticleImages/13890/20211117085611302_700_0_80.jpg');
+.rightIntroduce {
+    background-image: url('https://beauty.gobahub.com/wp-content/uploads/2021/11/IMG_6631-169x300.jpg');
     background-size: cover;
     border: 1px solid rgb(235, 235, 235); 
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7); 
-    height: 1500px;
-    padding: 70px;
+    height: 3300px;
+    padding: 10px;
     margin: 70px;
     border-radius: 20px;
     display: block;
-    text-align: center;
-}
-
-.right form {
-    width: 600px;
-    height: 600px;
-    padding: 100px auto;
-    margin: 100px auto;
-
-    border: 1px solid black
-}
-
-.right input[type="button"] {
-    width: 300px;
-    height: 100px;
-    font-size: 30pt;
-    border-radius: 10px;
-    border: 1px solid gray;
-}
-
-.right input[type="title"] {
-    width: 400px;
-    height: 40px;
-    font-size: 10pt;
-    margin: 20px;
-}
-
-.right input[type="date"] {
-    width: 250px;
-    height: 30px;
-    font-size: 15pt;
-    margin: 20px;
-    margin-top: 80px;
-}
-
-.right textarea {
-    width: 400px;
-    height: 200px;
-    font-size: 15pt;
-    padding: 10px;
-    margin: 20px;
-}
-
-.right hr {
-    width: 90%;
-}
-
-.right h1 {
-    text-align: center;
-    padding-left: 300px;
-    color: palevioletred;
-    font-size: 70pt;
-}
-
-hr {
-    width: 600px;
-    border: olid 3px black;
 }
 
 .rightIntroduce hr.in {
@@ -155,6 +92,13 @@ hr {
     transform: scale(1.2); 
 }
 
+h1 {
+    text-align: right;
+    padding-right: 250px;
+    font-size: 80pt;
+    color: pink
+}
+
 h2 {
     text-align: left;
     padding-left: 320px;
@@ -173,6 +117,47 @@ h4 {
     font-size: 40pt;
     line-height: 0.5;
     color: pink;
+}
+
+.rightIntroduce h4.tag {
+    margin-bottom: 200px;
+}
+
+h5 {
+    text-align: center;
+    padding-left: 300px;
+    font-size: 10pt;
+}
+
+/* AI 이미지 */
+img {
+    width: 300px;
+    height: 400px;
+    padding-left: 300px;
+    padding-top: 120px;
+    display: flex;
+}
+
+.sukyeong2 {
+    display: none;
+}
+
+
+.change {
+    position: relative;
+    float: left; width: 50%;
+}
+
+.hi {
+    position: absolute;
+    transform: scale(1.2);
+    top: -20px;
+    left: -50px;
+    display: none;
+}
+
+.change:hover .hi {
+    display: block;
 }
 
 /* 인스타 이미지 */
@@ -211,12 +196,8 @@ img[src="https://cdn-icons-png.flaticon.com/512/159/159684.png"] {
     display: inline;
 }
 
-.homepage {
-    float: left;
-    padding-left: 100px;
-    margin: 20px;
-}
-
-form {
-    text-align: center;
+/* map in skhu 아이콘 */
+img[src="https://mapinskhu.com/static/img/logo_ver5.png"] {
+    width: 200px;
+    height: 50px;
 }

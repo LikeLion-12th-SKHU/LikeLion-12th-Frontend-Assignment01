@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'YClover-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'YClover-Bold';
+}
+
+/* css 조건 3번 만족 */
+nav {
+    border: 1px solid rgb(177, 177, 177); 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1); 
+    border-radius: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 7cqb;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+}
+
+nav a {
+    margin: 10px; 
+}
+
+a {
+    font-size: 20pt;
+}
+
+.rightSkill {
+    /* background-color: rgb(253, 253, 238); */
+    background-image: url('https://www.tipspintar.com/wp-content/uploads/2018/11/Wallpaper-iPhone-Keren-10.jpg');
+    background-size: cover;
+    border: 1px solid rgb(235, 235, 235); 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7); 
+    height: 2000px;
+    padding: 10px;
+    margin: 70px;
+    border-radius: 20px;
+    display: block;
+}
+
+.rightSkill hr {
+    width: 450px;
+    border: none;
+    border-top: 3px dashed black;
+    margin-left: 250px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.rightSkill li {
+    font-size: 15pt;
+    padding-left: 250px;
+    color: gray;
+}
+
+.rightSkill h1 {
+    text-align: left;
+    padding-left: 250px;
+    font-size: 80pt;
+    color: rgb(243, 141, 158)
+}
+
+.rightSkill h2 {
+    font-size: 25pt;
+    padding-left: 250px;
+    color: black;
+}
+
+.rightSkill h3 {
+    font-size: 20pt;
+    padding-left: 250px;
+    color: black;
+}
+
+.rightSkill li:hover {
+    transform: scale(1.2); 
+}
+
+.rs {
+    float: left; width: 70%;
+}
+
+.ls {
+    float: right; width: 50%;
+    text-align: right;
+}
+
+/* 인스타 이미지 */
+img[src="https://i.namu.wiki/i/PpCUHjc8PoAlAWoSip-m3KtgYMq7Ft1sI2BiCioMrclYCFdnjCEVKdPyXJ3yqXgHjgboqOp-8Q9z71WTisQy_A.svg"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+/* 블로그 이미지 */
+img[src="https://mblogthumb-phinf.pstatic.net/MjAyMDA4MDFfMTg0/MDAxNTk2MjkzNjAxMDU4.ZaLufMbKlqFkjZ54DnV_GCRS_eFaa6SSW0BdzhhLVx0g.lsfIx3noKbe-vrCwpPtKscTh607BD80xXcAEMZamQ68g.PNG.iwebsoft/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A1%9C%EA%B3%A0.png?type=w800"] {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    display: inline;
+}
+
+/* 이메일 아이콘 */
+img[src="https://cdn.icon-icons.com/icons2/2108/PNG/512/email_icon_130945.png"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+/* 전화 아이콘 */
+img[src="https://cdn-icons-png.flaticon.com/512/159/159684.png"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    display: inline;
+}
