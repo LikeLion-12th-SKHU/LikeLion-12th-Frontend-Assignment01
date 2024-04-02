@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'SokchoBadaDotum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaDotum.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+nav {
+    font-family: 'SokchoBadaDotum';/*css 조건 4번 만족*/
+    width: 100%;
+}
+
+nav ul li {
+    display : inline;
+    margin: 20px 70px;
+}
+
+nav, ul, li, a {
+    color:antiquewhite;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    text-align: left;
+    color: black;
+}
+
+hr {
+    border: 1px solid white;
+    width: 100%;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(171, 212, 252);
+}
+div{
+    display: inline-block;
+}
+.tf1, .tf2, .tf3, .tf4, .tf5, .tf6, .tf7, .tf8, .tf9{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.tf1 img, .tf2 img, .tf3 img, .tf4 img,.tf5 img, .tf6 img, .tf7 img, .tf8 img, .tf9 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+}
+.tf1 img:nth-child(2),.tf2 img.A, .tf3 img.A, .tf4 img.A,.tf5 img.A, .tf6 img.A, .tf7 img.A, .tf8 img.A, .tf9 img.A {
+    opacity: 0;
+}
+.tf1:hover img:nth-child(2),.tf2:hover img.A,.tf3:hover img.A,.tf4:hover img.A,.tf5:hover img.A,.tf6:hover img.A,.tf7:hover img.A,.tf8:hover img.A,.tf9:hover img.A {
+    opacity: 1;
+}
+.form1{
+    font-size: 15px;
+    font-family: 'KCC-Hanbit';
+    color : darkgreen;
+    border : 2px solid antiquewhite;
+    margin: 15px auto;
+}
