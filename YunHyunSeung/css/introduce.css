@@ -1,0 +1,35 @@
+/* css 조건 4번 만족 */
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th{
+    border-collapse : collapse;
+    border : 1px solid black;
+    text-align: center;
+}
+
+.container{
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.item{
+    flex-basis: 400px;
+    
+}
+
+body{
+    font-family: 'KCC-Hanbit';
+    /* css 조건 3번 만족 */
+    background-image: url(https://yimgf-thinkzon.yesform.com/docimgs/public/1/63/62658/62657752.jpg);
+}
