@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'YClover-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'YClover-Bold';
+}
+
+/* css 조건 3번 만족 */
+nav {
+    border: 1px solid rgb(177, 177, 177); 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1); 
+    border-radius: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 7cqb;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+}
+
+nav a {
+    margin: 10px; 
+}
+
+a {
+    font-size: 20pt;
+}
+
+/* css 조건 3번 만족 */
+.rightIntroduce {
+    background-image: url('https://beauty.gobahub.com/wp-content/uploads/2021/11/IMG_6631-169x300.jpg');
+    background-size: cover;
+    border: 1px solid rgb(235, 235, 235); 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7); 
+    height: 3300px;
+    padding: 10px;
+    margin: 70px;
+    border-radius: 20px;
+    display: block;
+}
+
+.rightIntroduce hr.in {
+    width: 300px;
+    border: none;
+    border-top: 3px dashed black;
+    margin-right: 380px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rightIntroduce li {
+    font-size: 15pt;
+    padding-left: 1050px;
+    color: gray;
+}
+
+.rightIntroduce hr {
+    float: right;
+    margin-right: 100px;
+    width: 600px;
+    border: 3px solid black;
+}
+
+.rightIntroduce hr.interests {
+    float: right;
+    width: 600px;
+    border: 3px solid black;
+}
+
+.rightIntroduce h2 {
+    text-align: right;
+    padding-right: 440px;
+}
+
+.rightIntroduce h2.in {
+    text-align: right;
+    padding-right: 500px;
+}
+
+.rightIntroduce h1:hover {
+    transform: scale(1.2); 
+}
+
+.rightIntroduce li:hover {
+    transform: scale(1.2); 
+}
+
+.rightIntroduce h1:hover {
+    transform: scale(1.2); 
+}
+
+h1 {
+    text-align: right;
+    padding-right: 250px;
+    font-size: 80pt;
+    color: pink
+}
+
+h2 {
+    text-align: left;
+    padding-left: 320px;
+    font-size: 25pt;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 1050px;
+    font-size: 20pt;
+}
+
+h4 {
+    text-align: left;
+    padding-left: 1000px;
+    font-size: 40pt;
+    line-height: 0.5;
+    color: pink;
+}
+
+.rightIntroduce h4.tag {
+    margin-bottom: 200px;
+}
+
+h5 {
+    text-align: center;
+    padding-left: 300px;
+    font-size: 10pt;
+}
+
+/* AI 이미지 */
+img {
+    width: 300px;
+    height: 400px;
+    padding-left: 300px;
+    padding-top: 120px;
+    display: flex;
+}
+
+.sukyeong2 {
+    display: none;
+}
+
+
+.change {
+    position: relative;
+    float: left; width: 50%;
+}
+
+.hi {
+    position: absolute;
+    transform: scale(1.2);
+    top: -20px;
+    left: -50px;
+    display: none;
+}
+
+.change:hover .hi {
+    display: block;
+}
+
+/* 인스타 이미지 */
+img[src="https://i.namu.wiki/i/PpCUHjc8PoAlAWoSip-m3KtgYMq7Ft1sI2BiCioMrclYCFdnjCEVKdPyXJ3yqXgHjgboqOp-8Q9z71WTisQy_A.svg"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+/* 블로그 이미지 */
+img[src="https://mblogthumb-phinf.pstatic.net/MjAyMDA4MDFfMTg0/MDAxNTk2MjkzNjAxMDU4.ZaLufMbKlqFkjZ54DnV_GCRS_eFaa6SSW0BdzhhLVx0g.lsfIx3noKbe-vrCwpPtKscTh607BD80xXcAEMZamQ68g.PNG.iwebsoft/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A1%9C%EA%B3%A0.png?type=w800"] {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    display: inline;
+}
+
+/* 이메일 아이콘 */
+img[src="https://cdn.icon-icons.com/icons2/2108/PNG/512/email_icon_130945.png"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+/* 전화 아이콘 */
+img[src="https://cdn-icons-png.flaticon.com/512/159/159684.png"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+/* map in skhu 아이콘 */
+img[src="https://mapinskhu.com/static/img/logo_ver5.png"] {
+    width: 200px;
+    height: 50px;
+}

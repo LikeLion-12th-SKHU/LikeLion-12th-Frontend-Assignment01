@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'YClover-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/YClover-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'YClover-Bold';
+}
+
+/* css 조건 3번 만족 */
+nav {
+    border: 1px solid rgb(177, 177, 177); 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1); 
+    border-radius: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 7cqb;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+}
+
+nav a {
+    margin: 10px; 
+}
+
+a {
+    font-size: 20pt;
+}
+
+.map {
+    float: right;
+    padding-right: 100px;
+    margin: 20px;
+}
+
+.rightGallery h1 {
+    text-align: left;
+    padding-left: 150px;
+    font-size: 80pt;
+    color: rgb(243, 141, 158)
+}
+
+h5 {
+    text-align: center;
+    padding-left: 300px;
+    font-size: 10pt;
+}
+
+.rightGallery {
+    /* background-color: rgb(253, 253, 238); */
+    background-image: url('https://marketplace.canva.com/EAFwuPfAzqc/1/0/1000w/canva-%EB%85%B8%EB%9E%91%EC%83%89-%EA%B7%80%EC%97%AC%EC%9A%B4-%EA%B3%B0%EB%8F%8C%EC%9D%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B4-6_T2FUiPpmU.jpg');
+    background-size: cover;
+    border: 1px solid rgb(235, 235, 235); 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7); 
+    height: 1800px;
+    padding: 10px;
+    margin: 70px;
+    border-radius: 20px;
+    display: block;
+}
+
+/* 인스타 이미지 */
+img[src="https://i.namu.wiki/i/PpCUHjc8PoAlAWoSip-m3KtgYMq7Ft1sI2BiCioMrclYCFdnjCEVKdPyXJ3yqXgHjgboqOp-8Q9z71WTisQy_A.svg"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+/* 블로그 이미지 */
+img[src="https://mblogthumb-phinf.pstatic.net/MjAyMDA4MDFfMTg0/MDAxNTk2MjkzNjAxMDU4.ZaLufMbKlqFkjZ54DnV_GCRS_eFaa6SSW0BdzhhLVx0g.lsfIx3noKbe-vrCwpPtKscTh607BD80xXcAEMZamQ68g.PNG.iwebsoft/%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A1%9C%EA%B3%A0.png?type=w800"] {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    display: inline;
+}
+
+/* 이메일 아이콘 */
+img[src="https://cdn.icon-icons.com/icons2/2108/PNG/512/email_icon_130945.png"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+/* 전화 아이콘 */
+img[src="https://cdn-icons-png.flaticon.com/512/159/159684.png"] {
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+img[src="https://postfiles.pstatic.net/MjAyNDAyMDRfMSAg/MDAxNzA3MDQ1NjA2NzUx.1RrkvVmRsqNuHwHoi4QNOvf-16uzU2sVE3u63k01Zykg.43-m31nvSMwCq7S9-PTGLGqZqACYHOjsy-5IJ9Wfam4g.JPEG.osukyeong0109/1707045606252.jpg?type=w466&jopt=2"] {
+    width: 300px;
+    height: 400px;
+    padding-left: 180px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+img[src="https://postfiles.pstatic.net/MjAyNDAyMjRfMjQy/MDAxNzA4NzYyMDk3NzI5.ivAG83jDWmJBNgszHDJ_8q3J8_6CFsmhJRZdrMU3GEQg.sL4WIoUneQtpJDocnqmWHsOaB4D1u-UXh-scqQm91u4g.JPEG/1708686104963.jpg?type=w466&jopt=2"] {
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+img[src="https://postfiles.pstatic.net/MjAyMzExMDRfMjEz/MDAxNjk5MTA5MDAwMDE1.F0urbyMPrO43hUhgST9jXdA0i3OHLW2JH6-P_OBBVyAg.E-2QYZQZhxgBi2YGuA_Gk0HGqQ4QlMvvY_wmHOswoiAg.JPEG.osukyeong0109/SNOW%EF%BC%BF20231008%EF%BC%BF213214%EF%BC%BF343.jpg?type=w466&jopt=2"] {
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+img[src="https://postfiles.pstatic.net/MjAyNDAxMTZfMjY3/MDAxNzA1MzgyMDQ3ODkz.1yuF2v0PJJBtZHy8Qj8IN3UdOBllKqduP8Va9NAbnJMg.tCVqz3jq06UEvP2lK9v7QpTSh_VnWY4ZfcN-7t9vuS4g.JPEG.osukyeong0109/1705382021085.jpg?type=w466&jopt=2"] {
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+img[src="https://postfiles.pstatic.net/MjAyMzA3MDZfMTk0/MDAxNjg4NjIxNDQ4MDMw.bNz8tt2YHz2e1JWNKQnnWlrtlwxhvEoeSx67YLFdduYg.JSDQIMwIuE2W5grz-CEcXt4QkqBehjyzYzZogCHqFCMg.JPEG.osukyeong0109/20230626%EF%BC%BF144228.jpg?type=w966&jopt=2"] {
+    width: 300px;
+    height: 400px;
+    padding-left: 180px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+img[src="https://postfiles.pstatic.net/MjAyMzAyMDZfMTEz/MDAxNjc1NjUyMDUzMDcy.4rQ8A3dyIJGBTTeffcHMx-bSBa9UWm3K0URQce8UeNwg.K4JOpOUW1AzU3p01GKs6MkKmes-uMFdx3hvFx6Q574Ag.JPEG.osukyeong0109/1675652046687.jpg?type=w466&jopt=2"] {
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+img[src="https://postfiles.pstatic.net/MjAyMjEyMTZfNjYg/MDAxNjcxMTkyNzQ5MTkx.N0UA8ZzDS_SrIN-unRqUSCgBn2bGBUBeAAmyelhEfYYg.TLqtQ43JH40lgeYqWvRBbfP5sUULFqf5pNfHd7eLKPgg.JPEG.osukyeong0109/20221216%EF%BC%BF022829.jpg?type=w966&jopt=2"] {
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+img[src="https://members9.hankyung.com/upload/rep/1706146776691_3_M.jpg"] {
+    width: 300px;
+    height: 400px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: inline;
+}
